@@ -33,5 +33,8 @@ class myregression:
         self.b_1 = b[1]
     
     def predict(self,X):
+        """
+        This function makes predictions
+        """
         return X*self.b_1+self.b_0
 
